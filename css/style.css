@@ -108,3 +108,17 @@ footer{
     background-color: darkblue;
     color:white;
 }
+
+
+/* task1.html */
+
+.main2{
+    width:100%;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    height:1100px;
+    background-color:#e1e1e9;
+}
