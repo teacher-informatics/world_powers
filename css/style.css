@@ -66,3 +66,24 @@ a:hover{
     text-align: center;
     background-color: beige;
 }
+
+
+.content1_info{
+    width:100%;
+    height:400px;
+    display:flex;
+    flex-direction: row;
+}
+
+
+.content1_caption{
+    width:50%;
+    height:400px;
+    background-color: lightpink;
+}
+
+.content1_image{
+    width:50%;
+    height:400px;
+    background-color: lightgreen;
+}
