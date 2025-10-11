@@ -175,7 +175,7 @@ footer{
 }
 
 .block1_task{
-    width:100%;
+    width:80%;
     height:90px;
     display: flex;
     justify-content: space-around;
@@ -183,17 +183,38 @@ footer{
 
 }
 
-.block1_task>input[type="text"]{
+.block1_task>.no_active{
     width:80px;
     height:30px;
     font-size:32px;
     text-align: center;
     border:none;
-    border-bottom:1px solid black;
-    padding:5px;
+    border-bottom:1px solid white;
+    padding:2px;
     color:black;
 }
 
+.block1_task>.active_input{
+    width:80px;
+    height:30px;
+    font-size:32px;
+    text-align: center;
+    border:none;
+    border-bottom:1px solid darkblue;
+    padding:2px;
+    color:black;
+}
+
+
 .block1_task>.active_input::placeholder{
     color:white;
+}
+
+
+.block1_task>.no_active::placeholder{
+    color:black;
+}
+
+input:focus{
+    outline: none;
 }
