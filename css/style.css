@@ -134,8 +134,7 @@ footer{
 
 .task_caption{
     width:100%;
-    height:100px;
     background-color: white;
     text-align: center;
-    font-size:22px;
+    color:darkred;
 }
