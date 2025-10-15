@@ -207,7 +207,7 @@ footer{
 
 
 .block1_task>.active_input::placeholder{
-    color:white;
+    color:green;
 }
 
 
