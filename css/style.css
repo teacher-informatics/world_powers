@@ -137,11 +137,26 @@ footer{
     color:darkred;
 }
 
-.task_powers{
+.task_row{
     width:100%;
-    text-align: center;
-    color:darkblue;
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
 }
+
+.empty_block{
+    width:40%;
+}
+
+.task_mark{
+    width:40%;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    background-color:orange;
+}
+
 
 
 .block_task{
