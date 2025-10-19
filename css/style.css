@@ -294,3 +294,14 @@ input:focus{
 input:focus{
     outline: none;
 }
+
+/* tasks.html */
+
+.block_tasks{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
