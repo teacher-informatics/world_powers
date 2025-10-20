@@ -305,3 +305,42 @@ input:focus{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.content2_block{
+    width:26%;
+    height:auto;
+    background-color:#e1f1fd;
+    box-shadow: 2px 2px 3px #2a8ab4;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+
+.content2_block>img{
+    width:70%;
+    height:62%;
+    
+}
+
+.show_task{
+    background-color:darkblue;
+    color:white;
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.show_task>a{
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.show_task:hover{
+    cursor: pointer;
+}
