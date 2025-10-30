@@ -13,18 +13,29 @@ function addResult(event){
          setTimeout(() => {
                 active_input.style.color="black"; 
                 active_input.readOnly=true;
-                alert("Corect");
-
-         },1200);
+                
+         },1400);
          
+         showMark(); 
+       
     } 
     else{
         active_input.readOnly=false;
         setTimeout(() => {
                 active_input.style.color="red"; 
                 active_input.readOnly=true;
-         },1200);
-         
 
+         },1700);
+         
+    
     }
+}
+
+
+function showMark(){
+    let mark=document.querySelector('.mark');
+    let pupil_mark=Number(mark.innerHTML);
+    let suma = pupil_mark+1;
+    mark.innerHTML = suma;
+    console.log(mark);
 }
