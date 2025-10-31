@@ -25,7 +25,7 @@ function addResult(event){
                 active_input.style.color="red"; 
                 active_input.readOnly=true;
 
-         },1700);
+         },1400);
          
     
     }
