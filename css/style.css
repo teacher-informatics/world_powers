@@ -320,11 +320,13 @@ input:focus{
 
 .block2_task>.active_input::placeholder{
     color:transparent;
+    font-size:28px;
 }
 
 
 .block2_task>.no_active::placeholder{
     color:black;
+    font-size:30px;
 }
 
 input:focus{
