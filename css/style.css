@@ -319,7 +319,7 @@ input:focus{
 
 
 .block2_task>.active_input::placeholder{
-    color:green;
+    color:transparent;
 }
 
 
