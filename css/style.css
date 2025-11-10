@@ -107,8 +107,23 @@ footer{
     height:100px;
     background-color: darkblue;
     color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
+
+.info{
+    width:30%;
+    font-size:18px;
+}
+
+.info_authors{
+    width:40%;
+    font-size:20px;
+    font-style: italic;
+}
 
 /* task1.html */
 
