@@ -14,9 +14,15 @@ function addResult(event){
                 active_input.style.color="black"; 
                 active_input.readOnly=true;
                 
-         },1400);
+         },2200);
+
+         setTimeout(() => {
+            movingBalloon();
+            showMark(); 
+         }, 3000);
          
-         showMark(); 
+        
+         
        
     } 
     else{
@@ -25,7 +31,7 @@ function addResult(event){
                 active_input.style.color="red"; 
                 active_input.readOnly=true;
 
-         },1400);
+         },2200);
          
     
     }
@@ -38,4 +44,26 @@ function showMark(){
     let suma = pupil_mark+1;
     mark.innerHTML = suma;
     console.log(mark);
+}
+
+function movingBalloon() {
+  let id = null;
+  const elem = document.getElementById("balloon");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    elem.style.opacity="1";
+    if (pos == 650) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+    }
+
+    setTimeout(() => {
+    elem.style.opacity="0";
+    elem.style.top="10%";
+    }, 7000)
+  }
 }
