@@ -709,3 +709,27 @@ input:focus{
         align-items: center;
     }   
 }
+
+
+#balloon{
+    width:30%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    opacity: 0;
+    background-color: #58CCED;
+}
+
+#balloon>img{
+    position: absolute;
+    width:80%;
+    
+}
+
+.balloon_text{
+    width:74%;
+    position: absolute;
+    top:130px;
+    text-align: center;
+    font-size:52px;
+}
