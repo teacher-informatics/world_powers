@@ -432,6 +432,23 @@ input:focus{
     font-size:28px;
 }
 
+    .block2{
+        width:90%;
+        height:60px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .block2_task{
+    width:80%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }   
+
 }
 
 
@@ -478,8 +495,25 @@ input:focus{
     }   
 
     input::placeholder {
-    font-size:28px;
-}
+    font-size:28px;}
+
+    .block2{
+        width:70%;
+        height:60px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .block2_task{
+    width:70%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    } 
+    
 }
 
 @media only screen and (min-width: 768px){
@@ -526,6 +560,23 @@ input:focus{
 
     input::placeholder {
     font-size:28px;}
+
+    .block2{
+        width:40%;
+        height:70px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .block2_task{
+        width:80%;
+        height:70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }   
 
 }
 
@@ -577,6 +628,23 @@ input:focus{
         font-size:30px;
     }
 
+    .block2{
+        width:40%;
+        height:90px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .block2_task{
+        width:80%;
+        height:90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }   
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -623,4 +691,21 @@ input:focus{
     input::placeholder {
         font-size:34px;
     }
+
+    .block2{
+        width:40%;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .block2_task{
+        width:80%;
+        height:90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }   
 }
