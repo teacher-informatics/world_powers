@@ -23,13 +23,14 @@ header{
 }
 
 .logo{
-    width:10%;
+    width:15%;
     height:100px;
+    margin-left:30px;
 }
 
 
 .logo>img{
-    width:90%;
+    width:45%;
 }
 
 
@@ -42,6 +43,29 @@ header{
     font-style: italic;
 }
 
+.toggle{
+    color:darkblue;
+    top:30px;
+    left:30px;
+    font-size:30px;
+    display:none;
+  }
+  
+.toggle:hover{
+    cursor:pointer;
+  }
+  
+.close{
+    color:darkblue;
+    top:24px;
+    left:30px;
+    font-size:50px;
+    display:none;
+}
+  
+.close:hover{
+    cursor:pointer;
+}
 
 nav{
     width:50%;
@@ -461,6 +485,54 @@ input:focus{
     align-items: center;
     }   
 
+    .toggle{
+        display: block;
+    }
+
+    nav {
+        width:95%;
+        background-color:#e1f1fd;
+        position: absolute;
+        top:100px;
+        left:8px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content:center;
+        display: none;
+        
+    }
+
+    .show{
+        width:97%;
+        background-color:#e1f1fd;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    nav li{
+        margin-top:20px;
+        margin-bottom: 20px;
+        margin-left:20px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    
+    .logo{
+        margin-top:10px;
+        width:15%;
+        height: 80px;
+    }
+
+    .logo>img{
+        width:100%;
+    }
+    
+    .caption1{
+        font-size:24px;
+    }
 }
 
 
@@ -525,6 +597,23 @@ input:focus{
     justify-content: space-around;
     align-items: center;
     } 
+
+    nav a{
+        font-size: 14px;
+    }
+    
+    .logo{
+        width:15%;
+        height: 80px;
+        margin-top:15px;
+    }
+    .logo>img{
+        width:80%;
+    }
+    
+    .caption1{
+        font-size:24px;
+    }
     
 }
 
@@ -589,6 +678,23 @@ input:focus{
         justify-content: space-around;
         align-items: center;
     }   
+
+    nav a{
+        font-size: 16px;
+    }
+    
+    .logo{
+        margin-top:-5px;
+        width:15%;
+        height: 80px;
+    }
+    .logo>img{
+        width:80%;
+    }
+    
+    .caption1{
+        font-size:24px;
+    }
 
 }
 
@@ -657,6 +763,24 @@ input:focus{
         align-items: center;
     }   
 
+     nav a{
+        font-size: 16px;
+    }
+    
+    .logo{
+        margin-top:-2px;
+        width:15%;
+        height: 80px;
+    }
+    .logo>img{
+        width:65%;
+    }
+    
+    .caption1{
+        font-size:30px;
+    }
+
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -720,6 +844,23 @@ input:focus{
         justify-content: space-around;
         align-items: center;
     }   
+
+     nav a{
+        font-size: 18px;
+    }
+    
+    .logo{
+        width:15%;
+        height: 80px;
+        margin-top:-10px;
+    }
+    .logo>img{
+        width:55%;
+    }
+    
+    .caption1{
+        font-size:34px;
+    }
 }
 
 
