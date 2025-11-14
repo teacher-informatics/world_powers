@@ -8,7 +8,7 @@
     display:flex;
     flex-direction: column;
     height:auto;
-    background-color:#e1e1e9;
+    background-color:white;
 }
 
 
@@ -895,7 +895,6 @@ input:focus{
     height:auto;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
 }
 
 
