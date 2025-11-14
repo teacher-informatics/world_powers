@@ -865,26 +865,27 @@ input:focus{
 
 
 #balloon{
-    width:30%;
+    width:50%;
     position: absolute;
     top: 10%;
-    left: 40%;
-    opacity: 0;
+    left:25%;
+    display: none;
     background-color: #58CCED;
 }
 
 #balloon>img{
     position: absolute;
-    width:80%;
+    width:90%;
     
 }
 
 .balloon_text{
     width:74%;
     position: absolute;
-    top:130px;
+    top:230px;
+    left:5px;
     text-align: center;
-    font-size:52px;
+    font-size:55px;
 }
 
 
