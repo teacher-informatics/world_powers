@@ -53,7 +53,7 @@ function movingBalloon() {
   clearInterval(id);
   id = setInterval(frame, 5);
   function frame() {
-    elem.style.opacity="1";
+    elem.style.display="block";
     if (pos == 650) {
       clearInterval(id);
     } else {
@@ -62,7 +62,7 @@ function movingBalloon() {
     }
 
     setTimeout(() => {
-    elem.style.opacity="0";
+    elem.style.display="none";
     elem.style.top="10%";
     }, 7000)
   }
