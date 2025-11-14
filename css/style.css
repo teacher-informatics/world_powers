@@ -886,3 +886,14 @@ input:focus{
     text-align: center;
     font-size:52px;
 }
+
+
+/* info.html */
+
+.block_info{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
