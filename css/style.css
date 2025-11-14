@@ -879,14 +879,7 @@ input:focus{
     
 }
 
-.balloon_text{
-    width:74%;
-    position: absolute;
-    top:230px;
-    left:5px;
-    text-align: center;
-    font-size:55px;
-}
+
 
 
 /* info.html */
