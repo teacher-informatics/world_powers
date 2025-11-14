@@ -897,3 +897,12 @@ input:focus{
     flex-direction: column;
     background-color: yellow;
 }
+
+
+.caption2{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:darkblue;
+    text-align: center;
+}
