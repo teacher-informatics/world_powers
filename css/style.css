@@ -443,7 +443,6 @@ input:focus{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: aquamarine;
         margin-top:20px;
     }
 
@@ -557,7 +556,6 @@ input:focus{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: red;
         margin-top:20px;
     }
 
@@ -639,7 +637,6 @@ input:focus{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: darkkhaki;
     }       
 
     .block1{
@@ -722,7 +719,6 @@ input:focus{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color:darkorchid;
     }       
 
     .block1{
@@ -804,7 +800,6 @@ input:focus{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color:darkturquoise;
     }       
 
     .block1{
@@ -937,4 +932,15 @@ input:focus{
 
 .list_elements a:visited{
     color:#065e84;
+}
+
+
+/* task3.html */
+
+
+.block3_task{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
 }
