@@ -944,3 +944,13 @@ input:focus{
     flex-direction: row;
     background-color: cyan;
 }
+
+
+.draggable_elements{
+     width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
