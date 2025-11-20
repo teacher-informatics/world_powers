@@ -1010,3 +1010,14 @@ input:focus{
 .new_block{
     background-color: #EAF0FC;
 }
+
+/* task4.htm */
+
+.block4_task{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
