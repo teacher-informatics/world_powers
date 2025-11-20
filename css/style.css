@@ -962,9 +962,10 @@ input:focus{
     padding-bottom: 10px;
     text-align: center;
     font-size:25px;
-    background-color: orange;
+    background-color:#FF9843;
     margin-top:20px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 
@@ -983,6 +984,11 @@ input:focus{
     border:1px solid darkblue;
     margin-top:20px;
     margin-bottom: 20px;
+    background-color:#FEECEF;
+    text-align: center;
+    font-size:25px;
+    color:darkblue;
+    font-weight: bold;
 }
 
 .task_powers{
@@ -994,4 +1000,13 @@ input:focus{
     color:black;
     text-align: center;
     font-size:24px;
+}
+
+.answer{
+    width:100%;
+    height:14px;
+}
+
+.new_block{
+    background-color: #EAF0FC;
 }
