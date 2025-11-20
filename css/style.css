@@ -96,7 +96,7 @@ a:hover{
 
 .content1{
     width:100%;
-    height:1040px;
+    height:auto;
     display: flex;
     flex-direction: column;
     background-color: beige;
@@ -105,29 +105,18 @@ a:hover{
 
 .content1_info{
     width:100%;
-    height:400px;
-    display:flex;
-    flex-direction: row;
+    height:auto;
 }
 
 
-.content1_caption{
-    width:50%;
-    height:400px;
-    background-color: lightpink;
-}
-
-.content1_image{
-    width:50%;
-    height:400px;
-    background-color: lightgreen;
+.content1_info>img{
+    width:100%;
 }
 
 
 .content1_caption1{
     width:100%;
     height:100px;
-    background-color: white;
     text-align: center;
     font-size:22px;
 }
@@ -135,7 +124,6 @@ a:hover{
 .content1_blocks{
     width:100%;
     height:500px;
-    background-color:lightsteelblue;
 }
 
 footer{
