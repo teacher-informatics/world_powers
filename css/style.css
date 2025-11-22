@@ -540,6 +540,14 @@ input:focus{
         height:150px;
         font-size: 20px;
     }
+
+    .info{
+        font-size:14px;
+    }
+
+    .info_authors{
+        font-size:14px;
+    }
 }
 
 
@@ -627,6 +635,14 @@ input:focus{
     .content1_text{
         height: 150px;
         font-size: 22px;
+    }
+
+    .info{
+        font-size:16px;
+    }
+
+    .info_authors{
+        font-size:16px;
     }
 }
     
@@ -717,7 +733,14 @@ input:focus{
         height: 200px;
         font-size: 26px;
     }
-}
+    
+    .info{
+        font-size:16px;
+    }
+
+    .info_authors{
+        font-size:16px;
+    }
 
 
 
@@ -808,6 +831,14 @@ input:focus{
         height: 250px;
         font-size: 30px;
     }
+
+    .info{
+        font-size:18px;
+    }
+
+    .info_authors{
+        font-size:18px;
+    }
 }
 
 
@@ -897,6 +928,14 @@ input:focus{
         margin-top:50px;
         height: 250px;
         font-size: 34px;
+    }
+
+    .info{
+        font-size:18px;
+    }
+
+    .info_authors{
+        font-size:20px;
     }
 }
 
