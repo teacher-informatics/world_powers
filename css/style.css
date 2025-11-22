@@ -884,7 +884,7 @@ input:focus{
     }   
 
     input::placeholder {
-        font-size:34px;
+        font-size:33px;
     }
 
     .block2{
