@@ -742,7 +742,7 @@ input:focus{
         font-size:16px;
     }
 
-
+}
 
 @media only screen and (min-width: 992px){
      .task_row{
@@ -1100,5 +1100,4 @@ input:focus{
     flex-direction: row;
     justify-content: space-around;
 }
-
 
