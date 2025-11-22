@@ -130,7 +130,7 @@ a:hover{
 
 .content1_text{
     width:80%;
-    height:300;
+    height:200px;
     color:#303030;
     font-size: 34px;
     font-style:italic;
@@ -532,7 +532,12 @@ input:focus{
         font-size:24px;
     }
 
+
+    .content1_blocks{
+        height:250px;
+    }
     .content1_text{
+        height:150px;
         font-size: 20px;
     }
 }
@@ -616,7 +621,11 @@ input:focus{
         font-size:24px;
     }
 
+    .content1_blocks{
+        height:250px;
+    }
     .content1_text{
+        height: 150px;
         font-size: 22px;
     }
 }
@@ -701,8 +710,12 @@ input:focus{
         font-size:24px;
     }
 
+    .content1_blocks{
+        height:300px;
+    }
     .content1_text{
-        font-size: 28px;
+        height: 200px;
+        font-size: 26px;
     }
 }
 
@@ -787,8 +800,13 @@ input:focus{
         font-size:30px;
     }
 
+    .content1_blocks{
+        height:350px;
+    }
     .content1_text{
-       font-size: 30px;
+        margin-top:40px;
+        height: 250px;
+        font-size: 30px;
     }
 }
 
@@ -872,8 +890,13 @@ input:focus{
         font-size:34px;
     }
 
+   .content1_blocks{
+        height:400px;
+    }
     .content1_text{
-       font-size: 34px;
+        margin-top:50px;
+        height: 250px;
+        font-size: 34px;
     }
 }
 
