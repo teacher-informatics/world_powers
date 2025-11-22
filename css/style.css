@@ -531,6 +531,10 @@ input:focus{
     .caption1{
         font-size:24px;
     }
+
+    .content1_text{
+        font-size: 20px;
+    }
 }
 
 
@@ -611,8 +615,13 @@ input:focus{
     .caption1{
         font-size:24px;
     }
-    
+
+    .content1_text{
+        font-size: 22px;
+    }
 }
+    
+
 
 @media only screen and (min-width: 768px){
     .task_row{
@@ -692,6 +701,9 @@ input:focus{
         font-size:24px;
     }
 
+    .content1_text{
+        font-size: 28px;
+    }
 }
 
 
@@ -775,8 +787,12 @@ input:focus{
         font-size:30px;
     }
 
-
+    .content1_text{
+       font-size: 30px;
+    }
 }
+
+
 
 @media only screen and (min-width: 1200px) {
      .task_row{
@@ -854,6 +870,10 @@ input:focus{
     
     .caption1{
         font-size:34px;
+    }
+
+    .content1_text{
+       font-size: 34px;
     }
 }
 
