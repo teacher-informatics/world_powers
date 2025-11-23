@@ -55,5 +55,5 @@ function drop(event) {
 
   setTimeout(()=>{
     location.reload()
-  },70000)
+  },85000)
 }
