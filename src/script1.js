@@ -19,7 +19,7 @@ function addResult(event){
          setTimeout(() => {
             movingBalloon();
             showMark(); 
-         }, 3000);
+         }, 2800);
          
        
     } 
@@ -64,7 +64,7 @@ function movingBalloon() {
     setTimeout(() => {
     elem.style.display="none";
     elem.style.top="10%";
-    }, 7000)
+    }, 6000)
   }
 }
 
