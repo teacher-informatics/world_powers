@@ -33,6 +33,8 @@ function addResult(event){
          
     
     }
+
+    reloadPage();
 }
 
 
@@ -65,4 +67,28 @@ function movingBalloon() {
     elem.style.top="10%";
     }, 6000)
   }
+}
+
+
+
+function reloadPage(){
+
+active_inputs.forEach(input => {
+  input.addEventListener('input', () => {
+    const allFilled = [...active_inputs].every(i => i.value.trim() !== "");
+
+    if (allFilled) {
+       setTimeout(()=>{
+         window.scrollTo({
+          top: 0,
+         behavior: 'smooth'
+        })}, 4000)
+     
+       setTimeout(()=>{
+        location.reload()
+        },70000)
+    }
+  });
+});
+
 }
