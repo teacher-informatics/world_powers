@@ -12,7 +12,7 @@ function addResult(event){
     if(number === active_input.placeholder){
          setTimeout(() => {
                 active_input.style.color="black"; 
-                active_input.readOnly=true;
+                active_input.disabled=true;
                 
          },2200);
 
@@ -21,20 +21,20 @@ function addResult(event){
             showMark(); 
          }, 3000);
          
-        
-         
        
     } 
     else{
         active_input.readOnly=false;
         setTimeout(() => {
                 active_input.style.color="red"; 
-                active_input.readOnly=true;
+                active_input.disabled=true;
 
-         },2200);
-         
+         },2200); 
     
     }
+
+    reloadPage();
+
 }
 
 
@@ -66,4 +66,22 @@ function movingBalloon() {
     elem.style.top="10%";
     }, 7000)
   }
+}
+
+
+
+function reloadPage(){
+
+active_inputs.forEach(input => {
+  input.addEventListener('input', () => {
+    const allFilled = [...active_inputs].every(i => i.value.trim() !== "");
+
+    if (allFilled) {
+       setTimeout(()=>{
+        location.reload()
+        },70000)
+    }
+  });
+});
+
 }
